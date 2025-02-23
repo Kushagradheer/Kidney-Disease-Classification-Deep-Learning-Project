@@ -1,0 +1,27 @@
+# Core ML Libraries
+tensorflow==2.12.0
+numpy
+scipy
+pandas
+
+# ML Ops and Tracking
+mlflow==2.2.2
+dvc
+
+# Visualization
+matplotlib
+seaborn
+
+# API Development
+Flask
+Flask-Cors
+
+# Utilities
+python-box==6.0.2
+PyYAML
+types-PyYAML
+tqdm
+ensure==1.0.2
+joblib
+gdown
+-e .
