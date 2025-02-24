@@ -11,8 +11,6 @@ from typing import Any
 import base64
 
 
-## Ensure Annotations is used to ensure/catch arguments passed in the functions related errors.
-## ConfigBox return type is 3rd party type return function which wraps yaml content
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
